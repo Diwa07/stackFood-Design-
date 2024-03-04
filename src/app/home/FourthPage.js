@@ -3,7 +3,7 @@ import { GrUpdate } from "react-icons/gr";
 const FourthPage = () => {
   return (
     <div className="h-auto text-white px-[10%] py-[5%] ">
-      <div className="h-[15rem] rounded-2xl p-4 grid grid-cols-4 bg-[#FF7536] ">
+      <div className="h-[15rem] rounded-2xl p-4 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 bg-[#FF7536] ">
         <div className="flex items-center justify-center gap-7 ">
           {" "}
           <div>

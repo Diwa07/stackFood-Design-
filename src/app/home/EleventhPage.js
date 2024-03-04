@@ -7,8 +7,8 @@ import Tutorials from '../../image/tutorials.webp'
 
 const EleventhPage = () => {
   return (
-    <div className='h-screen px-[10%] ' >
-    <div className='flex flex-col items-center'>
+    <div className='md:h-screen border border-[red] h-auto px-[10%] ' >
+    <div className='flex flex-col items-center text-center'>
         <h1 className='py-5 text-[24px] font-bold ' >
         Supporting Your Success: We're Here to Help and Support You!
         </h1>
@@ -17,7 +17,7 @@ const EleventhPage = () => {
         </p>
         </div>
         
-<div className='h-[15rem] grid grid-cols-4  w-full  ' >
+<div className='h-[15rem] grid sm:grid-cols-2 grid-cols-1 md:grid-cols-4  w-full  ' >
 <div className='p-5 ' >
     <div className='h-full rounded-xl ' >
        <img src={support} alt='' className='h-full rounded-xl'/> 
