@@ -3,9 +3,9 @@ import React from 'react'
 
 const Footer = () => {
   return (
-    <div className='flex flex-col justify-end text-white lg-h-auto lg:h-screen' >
-<div className='h-[90%] p-[5%] bg-[#212121] rounded-tl-[4rem] rounded-tr-[4rem] ' >
-    <div className='bg-[#383838] h-full grid    grid-cols-1 md:grid-cols-2   lg:grid-cols-4 rounded-2xl p-[1%] ' >
+    <div className='flex flex-col justify-end text-center text-white lg-h-auto lg:h-screen' >
+<div className='h-[90%] p-[5%]  bg-[#212121] rounded-tl-[2rem] rounded-tr-[2rem] ' >
+    <div className='bg-[#383838] h-full grid mt-3    grid-cols-1 md:grid-cols-2   lg:grid-cols-4 rounded-xl p-[1%] ' >
 
        
     <div className=' px-[5%] '>
@@ -84,10 +84,10 @@ Cookie Policy </li>
 
     </div>
 
- <div className='flex  flex-col  h-[4rem] justify-around items-center text-white ' >
-<h1> Copyright ©2024 StackFood. All Rights Reserved</h1>
+ <div className='flex  flex-col py-8  md:h-[4rem]  justify-around items-center text-white ' >
+<h1 className='order-2 py-4 md:order-1 ' > Copyright ©2024 StackFood. All Rights Reserved</h1>
 
-<h1>Proudly Developed By
+<h1 className='order-1 py-4 md:order-2' >Proudly Developed By
 6amtech White Logo</h1>
  </div>
 </div>

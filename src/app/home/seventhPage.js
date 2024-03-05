@@ -22,8 +22,8 @@ const SeventhPage = () => {
   return (
     <div className=" h-auto text-center  mt-7 py-7 bg-[#F1F3F5]  gap-7 items-center justify-items-center">
       <div className="flex flex-col items-center py-8 gap-9">
-<h1>
-Integrated with World-Famous Payment Gateways
+<h1 className="text-[27px] font-semibold  px-8  ">
+Integrated with World-Famous <span className="text-[#FF5823]" > Payment Gateways </span> 
 </h1>
       </div>
 

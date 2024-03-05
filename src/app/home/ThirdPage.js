@@ -22,8 +22,8 @@ const ThirdPage = () => {
 
         </div>
         <div className='py-[4%] px-[3%]  ' >
-            <img src={img} alt='' className='order-1 md:hidden' />
-            <img src={img2} alt='' className='order-2 md:flex ' />
+            <img src={img} alt='' className= 'md:hidden'/>
+            <img src={img2} alt='' className='max-md:hidden' /> 
         </div>
 
 

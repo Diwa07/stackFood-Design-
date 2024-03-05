@@ -95,15 +95,13 @@ const FirstPage = () => {
       
   {/* mobile responsive */}
 <section className="h-max  border  border-[green]  lg:hidden" >
-    <div className="relative "  >
+    <div  className="h-auto bg-center bg-cover" style={{ backgroundImage: `url(${bg2})` }} >
    
 
-      <div  className="" >
+    
 
     
-    <img src= {bg2}alt="" className=" h-[90%] -z-10"/>
-  </div>
- <div className=" mt-[-70%] flex   px-[7%]   top-0" >
+ <div className=" border border-[red] flex   px-[7%]   " >
  <div className="px-[7%] flex flex-col  items-center text-center py-[7%]   " >
     <h1 className="py-5 text-[24px] " >
     Multi Restaurant Food Ordering & Delivery Solution with Source Code

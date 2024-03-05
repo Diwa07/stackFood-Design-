@@ -1,40 +1,48 @@
 import React from "react";
+import  a from '../../image/servicea.webp'
+import  b from '../../image/serviceb.webp'
 
-import { FaCar } from "react-icons/fa6";
-import { TbTruckDelivery } from "react-icons/tb";
+
 const NinthPage = () => {
   return (
-    <div className="h-auto mt-6 text-black lg:h-screen">
+    <div className="h-auto mt-6 text-black bg-[#FEF9F6] text-center lg:h-screen">
       <div
-        className="flex flex-col items-center pb-4 border border-black lg:h-screen "
+        className="flex flex-col items-center pb-4 lg:h-screen "
        
       >
         <div className="mt-[4rem] px-5  text-black text-center  text-2xl">
-          <h1 className="text-[2rem] ">
-          Jumpstart Your Business and Achieve the Perfect Fit with Our Premium Services
+          <h1 className="text-[2rem] font-semibold  ">
+          Jumpstart Your Business and <span className="text-[#FE5925]  " > Achieve the Perfect Fit</span>   with Our Premium Services
             
           </h1>
         </div>
         <div className="grid mt-[3rem] px-[10%]  md:px-[4rem] gap-11  items-center    md:h-[20rem] grid-cols-1 md:grid-cols-2">
-          <div className="px-9 rounded-2xl flex flex-col justify-between items-center border lg:w-[27rem]  h-[20rem] py-7 md:w-[22rem] bg-[#E9FFFC] ">
-            <FaCar className="text-[7rem] text-[#00A08D] " />
+          <div className="px-9 rounded-2xl flex flex-col justify-between items-center border h-auto py-7 md:h-[28rem] md:w-[22rem] bg-[white] ">
+          <div>
+          <img src={a} alt=""/>
+         </div>
+         <div>
+          <img src={b} alt=""/>
+         </div>
             <h1 className="text-2xl text-[black] font-bold">Start Your Business Instantly</h1>
-            <p className="text-[#00A08D] text-center ">
+            <p className="text-[#848889] text-center ">
             We set up your entire system, from installation to full configuration and app publishing.
             </p>
-            <div>
-            <button className=' px-2 md:px-5  py-2 md:py-4  rounded-3xl bg-[#FF8B2E]' >Order Accepted Resturent</button>
+            <div className="py-5" >
+            <button className=' px-2 md:px-5  py-2 md:py-4  rounded-3xl border-[#FF8B2E] border  text-[#FF8B2E]' >Order Accepted Resturent</button>
             </div>
           </div>
-          <div className="px-9 rounded-2xl flex flex-col items-center justify-between py-5  lg:w-[27rem] h-[20rem] md:w-[22rem] bg-[#E9FFFC] ">
-            <TbTruckDelivery className="text-[8rem] text-[#00A08D] " />
-            <h1 className="text-2xl text-[#00423A] font-bold">
+          <div className="px-9 rounded-2xl flex flex-col gap-4 items-center justify-between py-5 md:h-[28rem]  h-auto md:w-[22rem] bg-[white] ">
+         <div>
+          <img src={b} alt=""/>
+         </div>
+            <h1 className="text-2xl font-bold text-black">
             Make StackFood the Best Fit
             </h1>
-            <p className="text-[#00A08D] text-center ">
+            <p className="text-[#848889] text-center ">
             We discuss your business requirements and create unique features that perfectly align with your goals.
-            <div>
-            <button className=' px-2 md:px-5  py-2 md:py-4  rounded-3xl bg-[#FF8B2E]' >Order Accepted Resturent</button>
+            <div className="py-5" >
+            <button className=' px-2 md:px-5  py-2 md:py-4 border-[#FF8B2E] border  rounded-3xl text-[#FF8B2E]' >Request Coustomization</button>
             </div>
             </p>
           </div>
