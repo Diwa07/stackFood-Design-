@@ -2,10 +2,11 @@ import React from 'react'
 import image from'../../image/fifthpage.webp'
 import a from '../../image/icona.svg'
 import b from '../../image/iconb.svg'
+import { GoDotFill } from "react-icons/go";
 
 const FifthPage = () => {
   return (
-    <div className=' h-auto text-center md:h-screen px-[10%] ' >
+    <div className=' h-auto mt-3 text-center lg:h-screen px-[10%] ' >
 <div className='flex flex-col items-center py-[3%] ' >
     <h1 className=' px-[3%] text-[24px] font-semibold py-[3%]' >
     The Smartest Ways to <span className='text-[#FF5823]'> Make Money </span>  with StackFood
@@ -29,13 +30,15 @@ const FifthPage = () => {
   <h1 className='py-3 font-bold text-[17px]  ' >
     Commission-based Earning
     </h1>
-    <div className='text-[#212121]'>
-        <li>
+    <div className= ' flex flex-col  text-[#212121]'>
+    
+    <div className='flex items-center gap-2' > 
+    <GoDotFill className='text-[#FE5926]' />
         Order-wise (Restaurant-wise) Commission
-        </li>
-        <li>
+        </div>
+        <div className='flex flex-row items-center gap-2' > <GoDotFill className='text-[#FE5926]' />
         Commission In Delivery Charge
-        </li>
+        </div>
     </div>
   </div>
   
@@ -51,10 +54,10 @@ const FifthPage = () => {
  <h1 className='py-3 font-bold text-[17px]' >
  Subscription-based Earning
    </h1>
-   <div>
-       <li>
+   <div className='flex items-center text-[#212121] gap-2' > <GoDotFill className='text-[#FE5926]' />
+       <div>
        Restaurant Subscription
-       </li>
+       </div>
      
    </div>
  </div>

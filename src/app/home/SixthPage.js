@@ -2,7 +2,7 @@ import React from 'react'
 
 const SixthPage = () => {
   return (
-    <div className='h-screen text-center px-[10%] ' >
+    <div className='lg:h-screen h-auto text-center px-[10%] ' >
         <div className='flex flex-col items-center'>
             <h1 className='py-5 text-[24px] font-bold ' >
             From Search to  <span className='text-[#FF5823]'> MUST: </span>  Modern & Interactive <span className='text-[#FF5823]:'> StackFood </span> 
@@ -12,8 +12,8 @@ const SixthPage = () => {
             </p>
             </div>
 
-<div className='h-[20rem] bg-[blue] w-full  ' >
-kin
+<div className='h-[20rem] bg-[#9ad374] w-full  ' >
+left
 </div>
 
 

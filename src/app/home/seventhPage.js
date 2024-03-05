@@ -52,9 +52,7 @@ Integrated with World-Famous <span className="text-[#FF5823]" > Payment Gateways
         <div className="  h-[3.2rem] md:h-[4rem] rounded-2xl w-1/4 p-4 px-3 py-3 flex justify-center md:w-1/6  bg-white">
           <img src={paytm} alt="" />
         </div>
-        <div className="  h-[3.2rem] md:h-[4rem] rounded-2xl w-1/4 p-4 px-3 py-3 flex justify-center md:w-1/6  bg-white">
-          <img src={paystack} alt="" />
-        </div>
+       
         <div className="  h-[3.2rem] md:h-[4rem] rounded-2xl w-1/4 p-4 px-3 py-3 flex justify-center md:w-1/6  bg-white">
           <img src={liqpay} alt="" />
         </div>
@@ -95,10 +93,7 @@ Integrated with World-Famous <span className="text-[#FF5823]" > Payment Gateways
             <img src={msg91} alt="" />
             <div className="border-[2px] border-white h-17"></div>
           </div>
-          <div className="  h-[3.2rem] md:h-[4rem] rounded-2xl w-1/4 p-4 px-3 py-3 flex justify-center md:w-1/6  gap-5   ">
-            <img src={releans} alt="" />
-            <div className="border-[2px] border-white h-17"></div>
-          </div>
+          
         </div>
       </div>
     </div>

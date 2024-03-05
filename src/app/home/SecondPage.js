@@ -14,16 +14,16 @@ const SecondPage = () => {
   return (
     <div>
       <div className='flex  max-lg:px-[10%]  mb-[2rem] h-auto flex-col items-center' >
-        <h1 className='py-[2rem] text-center'>
-        What Comes with StackFood?
+        <h1 className='py-[2rem] text-[27px] font-semibold  text-center '>
+        What Comes with <span className='text-[#FE5926]  ' > StackFood? </span>
         </h1>
-        <p className='py-[2rem] text-center ' >
+        <p className='py-[2rem]  text-center text-[#646b84] ' >
         StackFood comes with a complete package that you need to get started with your online food delivery business easily.
         </p>
 <div className='h-auto ' >
 
  <div className='flex flex-col items-center ' >
- <h1 className='text-center' >
+ <h1 className='text-center text-[#FE5926] font-semibold  ' >
 Website
 
  </h1>
@@ -36,7 +36,7 @@ Website
 <div className='relative flex flex-col items-center lg:h-screen ' >
 <div className='flex px-[10%] max-md:hidden justify-between w-full ' >
 <div className='flex flex-col items-center ' >
- <h1 className='text-center' >
+ <h1 className='text-center text-[#FE5926] font-semibold ' >
 Admin Panel
 
  </h1>
@@ -47,7 +47,7 @@ Admin Panel
  </div>
 
  <div className='flex flex-col items-center' >
- <h1 className='text-center' >
+ <h1 className='text-center text-[#FE5926] font-semibold ' >
 Restaurant panel
 
  </h1>
@@ -73,7 +73,7 @@ Restaurant panel
 <img src={downleft} alt='' className='h-[2rem]   ' />
 
 </div>
-<h1 className='text-center' >
+<h1 className='text-center text-[#FE5926] font-semibold ' >
 Deliveryman App (Addon)
 
  </h1>
@@ -86,7 +86,7 @@ Deliveryman App (Addon)
 <img src={downright} alt='' className='h-[2rem]  ' />
 
 </div>
-<h1 className='text-center' >
+<h1 className='text-center text-[#FE5926] font-semibold ' >
 Restaurant App (Addon)
 
  </h1>
@@ -105,7 +105,7 @@ Restaurant App (Addon)
 <img src={straignline} alt='' className='h-[2rem]  ' />
 
 </div>
-<h1 className='text-center' >
+<h1 className='text-center text-[#FE5926] font-semibold ' >
 Customer App
 
  </h1>

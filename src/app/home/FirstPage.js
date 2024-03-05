@@ -94,73 +94,75 @@ const FirstPage = () => {
 
       
   {/* mobile responsive */}
-<section className="h-max  border  border-[green]  lg:hidden" >
+<section className=" text-[27px] font-semibold text-white lg:hidden" >
     <div  className="h-auto bg-center bg-cover" style={{ backgroundImage: `url(${bg2})` }} >
    
 
     
 
-    
- <div className=" border border-[red] flex   px-[7%]   " >
- <div className="px-[7%] flex flex-col  items-center text-center py-[7%]   " >
-    <h1 className="py-5 text-[24px] " >
+
+ <div className="flex flex-col md:px-[10%] px-3  items-center text-center py-[7%]   " >
+<div className="px-[10%] " >
+<h1 className="py-5 text-[24px] " >
     Multi Restaurant Food Ordering & Delivery Solution with Source Code
-    </h1> <p className="py-5  text-[14px] px-[5%]" >
+    </h1> <p className="py-5  text-[17px] px-[5%]" >
     Build your very own multi restaurant online food ordering & delivery business with Stackfood’s complete source code & post-purchase services.
     </p>
+</div>
 
-    <div className="flex justify-center font-bold text-[12px] text-white gap-9 py-7">
-            <button className="py-[10px]  flex justify-center items-center rounded-3xl border-[2px] border-[#FF922C]  gap-1 px-[15px] bg-[#FF922C]     shadow-[0px_20px_20px_0px_rgba(255,87,34,.3)]">
+    <div className="flex justify-center  font-bold text-[12px] text-white gap-9 py-7">
+            <button className="py-[10px]  flex justify-center items-center rounded-3xl border-[2px] text-[#FF5722]  border-[#FF922C]  gap-1 px-[15px]  bg-[#FFFFFF]   shadow-[0px_20px_20px_0px_rgba(255,87,34,.3)]">
               Buy Now <FaArrowRight />
             </button>
-            <button className="px-[15px] py-[10px] rounded-3xl flex justify-center items-center  gap-1  text-[#FF5722] bg-[#FFFFFF] border-[2px] border-[#FF922C]  ">
+            <button className="px-[15px] py-[10px] rounded-3xl flex justify-center items-center  gap-1    border-[2px] border-[white]  ">
               
               View demo <FaArrowRight />
             </button>
           </div>
-          <div className="relative flex justify-center w-full h-full " >
+          <div className="relative flex items-center   md:px-0 px-[10%] justify-center w-full h-full " >
           <img
               src={mob}
               alt=""
             
-              className=" pt-[3rem]      "
+              className=" h-[300px] md:h-auto pt-[3rem]"
             />
             
-            <div className="absolute flex justify-between w-full top-36">
+            <div className="absolute flex justify-between w-full top-20 md:top-36">
               <img
                 src={b}
                 alt=""
-                height={100}
-                width={100}
+                height={200}
+                width={200}
                  
-                className=" animate-up-down"
+                className=" md:h-[200px] md:w-[200px] h-[100px] w-[100px]  animate-up-down"
               />
               <img
                 src={c}
                 alt=""
-                height={100}
-                width={100}
-                className=" animate-left-right"
+                height={200}
+                width={200}
+                className=" md:h-[200px] md:w-[200px] h-[100px] w-[100px] animate-left-right"
               />
             </div>
 
-            <div>
+            <div className="absolute bottom-0 left-4 " >
               <img
                 src={d}
                 alt=""
                 height={200}
                 width={200}
         
-                className=" left-9 bottom-[7rem] z-20 animate-left-right "
+                className="px-5 md:px-0 animate-left-right"
               />
-            </div>
+           
+            </div> 
 
 
           </div>
    
    </div>
    
- </div>
+
     </div>
 
 

@@ -5,18 +5,18 @@ import  b from '../../image/serviceb.webp'
 
 const NinthPage = () => {
   return (
-    <div className="h-auto mt-6 text-black bg-[#FEF9F6] text-center lg:h-screen">
+    <div className="h-auto mt-6 py-auto mb-3  text-black bg-[#FEF9F6] text-center lg:h-screen">
       <div
         className="flex flex-col items-center pb-4 lg:h-screen "
        
-      >
+      > 
         <div className="mt-[4rem] px-5  text-black text-center  text-2xl">
-          <h1 className="text-[2rem] font-semibold  ">
-          Jumpstart Your Business and <span className="text-[#FE5925]  " > Achieve the Perfect Fit</span>   with Our Premium Services
-            
-          </h1>
+          
+          <h1 className='  text-[24px] font-semibold ' >
+          Jumpstart Your Business and<span className='text-[#FF5823]'> Achieve the Perfect Fit</span>  with Our Premium Services
+    </h1>
         </div>
-        <div className="grid mt-[3rem] px-[10%]  md:px-[4rem] gap-11  items-center    md:h-[20rem] grid-cols-1 md:grid-cols-2">
+        <div className="grid mt-[3rem] px-[10%]  md:px-[4rem] gap-11  items-center    lg:h-[20rem] grid-cols-1 md:grid-cols-2">
           <div className="px-9 rounded-2xl flex flex-col justify-between items-center border h-auto py-7 md:h-[28rem] md:w-[22rem] bg-[white] ">
           <div>
           <img src={a} alt=""/>

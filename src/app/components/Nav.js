@@ -8,7 +8,7 @@ const Nav = () => {
   const [showNav, setShowNav] = useState(false);
   return (
     <nav className="flex justify-between py-5 px-7">
-      <div> <Link to="/"> <img src= {logo} alt=""   />  </Link> </div>
+      <div> <Link to="/"> <img src= {logo} alt=""  />  </Link> </div>
       <div className="hidden lg:flex">
      <ol className="flex cursor-pointer gap-9 " >
      <Link to="/">  <li>Home</li> </Link>
@@ -41,9 +41,9 @@ const Nav = () => {
                 </div>
                 <ol className="px-4 py-4 ">
                  
-                    <li className="hover:text-[#006156] cursor-pointer mb-7  rounded-2xl p-1 md:px-6 hover:bg-[#9c7c7c54] py-2">
+                <Link to="/">  <li className="hover:text-[#006156] cursor-pointer mb-7  rounded-2xl p-1 md:px-6 hover:bg-[#9c7c7c54] py-2">
                       Home
-                    </li>
+                    </li> </Link>
                 
                   <li className="hover:text-[#006156] cursor-pointer mb-7  rounded-2xl p-1 md:px-6 hover:bg-[#9c7c7c54] py-2">
                     Features
