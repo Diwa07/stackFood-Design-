@@ -26,7 +26,7 @@ const FifthPage = () => {
       <img src={a} alt=''/>
     </div>
 
-  <div>
+  <div className='flex flex-col items-start'  >
   <h1 className='py-3 font-bold text-[17px]  ' >
     Commission-based Earning
     </h1>
@@ -50,7 +50,7 @@ const FifthPage = () => {
 <img src={b} alt=''/>
    </div>
 
- <div>
+ <div  >
  <h1 className='py-3 font-bold text-[17px]' >
  Subscription-based Earning
    </h1>

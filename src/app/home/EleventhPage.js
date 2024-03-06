@@ -7,7 +7,7 @@ import Tutorials from '../../image/tutorials.webp'
 
 const EleventhPage = () => {
   return (
-    <div className='lg:h-screen   h-auto px-[10%] ' >
+    <div className=' py-[4%]  h-auto px-[10%] ' >
     <div className='flex flex-col items-center text-center'>
         <h1 className='py-5 text-[24px] font-bold ' >
         Supporting Your Success: We're Here to Help and <span className='text-[#FE5925]' > Support You! </span> 
