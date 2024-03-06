@@ -20,7 +20,7 @@ const ExploreDemo = () => {
 
         </div>
 
-        <div className="flex justify-center order-1 md:order-2 h-[25rem] ">
+        <div className="flex  justify-center order-1 md:order-2 h-[25rem] ">
           <img src={mobile} alt="" className="" />
         </div>
       </div>

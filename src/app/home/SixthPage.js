@@ -5,7 +5,7 @@ const SixthPage = () => {
     <div className='lg:h-screen h-auto text-center px-[10%] ' >
         <div className='flex flex-col items-center'>
             <h1 className='py-5 text-[24px] font-bold ' >
-            From Search to  <span className='text-[#FF5823]'> MUST: </span>  Modern & Interactive <span className='text-[#FF5823]:'> StackFood </span> 
+            From Search to  <span className='text-[#FF5823]'> MUST: </span>  Modern & Interactive <span className='text-[#FF5823]'> StackFood </span> 
             </h1>
             <p className='py-8 text-[#646B84]' >
             Enjoy the unlimited intuitive features in StackFood online food delivery solution you’ve been looking for on the internet all along.

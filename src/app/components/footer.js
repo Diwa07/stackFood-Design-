@@ -84,7 +84,7 @@ Cookie Policy </li>
 
     </div>
 
- <div className='flex  flex-col py-8  md:h-[4rem]  justify-around items-center text-white ' >
+ <div className='flex  md:flex-row flex-col py-7  md:h-[4rem]  justify-around items-center text-white ' >
 <h1 className='order-2 py-4 md:order-1 ' > Copyright ©2024 StackFood. All Rights Reserved</h1>
 
 <h1 className='order-1 py-4 md:order-2' >Proudly Developed By
