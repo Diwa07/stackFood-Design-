@@ -1,5 +1,10 @@
 import React from "react";
-
+import { Navigation, Pagination, Scrollbar, A11y, Autoplay } from 'swiper/modules';
+import { Swiper, SwiperSlide } from 'swiper/react';
+import 'swiper/css';
+import 'swiper/css/navigation';
+import 'swiper/css/pagination';
+import 'swiper/css/autoplay';
  import bg1 from '../../image/bg1.svg'
  import bg2 from '../../image/bg2.png'
  import mob from '../../image/mobile.svg'
@@ -58,7 +63,40 @@ const FirstPage = () => {
                   className="w-full h-full rounded-[2rem] z-[30] relative"    
                 />
                 <div className="absolute   top-0 left-0 w-full h-full rounded-[2.5rem] pl-[.5rem] pr-[.2rem]">
-                  <img src={slide} alt="" className="w-full h-full rounded-[2.5rem] object-fit" />
+
+                <Swiper
+          className="h-full rounded-[1.5rem]"
+          modules={[Navigation, Pagination, Autoplay, Scrollbar, A11y]}
+          spaceBetween={5}
+          slidesPerView={1}
+       
+          autoplay={{ delay: 3000 }}
+          loop={true}
+          pagination={{ clickable: true }}
+          scrollbar={{ draggable: true }}
+ 
+        >
+              
+              <SwiperSlide>
+       
+              <img src={slide} alt="" className="w-full h-full rounded-[2.5rem] object-fit" />
+          </SwiperSlide>
+
+          <SwiperSlide>
+       
+       <img src={slide} alt="" className="w-full h-full rounded-[2.5rem] object-fit" />
+   </SwiperSlide>
+         
+        </Swiper>
+
+
+
+
+
+
+
+
+
                 </div>
               </div>
             </div>
