@@ -9,6 +9,12 @@ import right from "../../image/rightline.svg";
 import downright from "../../image/downright.svg";
 import downleft from "../../image/downleft.svg";
 import slidea from "../../image/slidemonitora.webp";
+import { Navigation, Pagination, Scrollbar, A11y, Autoplay } from 'swiper/modules';
+import { Swiper, SwiperSlide } from 'swiper/react';
+import 'swiper/css';
+import 'swiper/css/navigation';
+import 'swiper/css/pagination';
+import 'swiper/css/autoplay';
 
 const SecondPage = () => {
   return (
@@ -90,9 +96,40 @@ const SecondPage = () => {
                 </div>
               </div>
               <div className="md:absolute max-lg:h-[13rem] top-0 max-md:order-1 -z-10 ">
-                <div className="relative p-2 h-[14.5rem] w-[20.5rem] border border-[green]" style={{backgroundImage: `url(${monitor})`, backgroundSize:'contain', backgroundPosition:'center'}}>
+                <div className="relative p-2 h-[14.5rem] w-[20.5rem] " style={{backgroundImage: `url(${monitor})`, backgroundSize:'contain', backgroundPosition:'center'}}>
                   {/* <img src={monitor} alt="" className="w-full h-full" /> */}
-                  <img src={slidea} className="w-full h-[70%]" alt="" />
+
+                  <Swiper
+          className= ""
+          modules={[Navigation, Pagination, Autoplay, Scrollbar, A11y]}
+          spaceBetween={5}
+          slidesPerView={1}
+       
+          autoplay={{ delay: 4000 }}
+          loop={true}
+         
+          // pagination={{ clickable: true }}
+          scrollbar={{ draggable: true }}
+ 
+        >
+              
+             
+          <SwiperSlide  >
+          <img src={slidea} className="w-full h-[70%]" alt="" />
+
+                 </SwiperSlide>
+
+                 <SwiperSlide  >
+          <img src={slidea} className="w-full h-[70%]" alt="" />
+
+                 </SwiperSlide>
+            
+
+         
+        </Swiper>
+
+
+                 
                 </div>
                 {/* <div className="absolute top-0 w-[367px] ">
                   <img src={slidea} alt="" />

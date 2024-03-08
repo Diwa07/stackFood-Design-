@@ -10,7 +10,7 @@ import 'swiper/css/autoplay';
 
 const TwelfthPage = () => {
   return (
-    <div className='h-auto px-[10%] flex justify-center py-5 flex-col border text-center  border-[black] '>
+    <div className='h-auto px-[10%] flex justify-center py-5 flex-col  text-center  '>
         <div className='flex justify-center' >
             <h1 className='text-[27px]'>
             We Don’t Sell Products, We Make <span>  Success Stories </span> 

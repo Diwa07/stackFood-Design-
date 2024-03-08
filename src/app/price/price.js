@@ -13,6 +13,7 @@ const Price = () => {
         <PricingPage/>
         <SecondPage/> 
         <Thirdppage/>
+        <Promo/>
           <Footer/>
     </div>
   )

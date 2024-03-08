@@ -133,7 +133,9 @@ const FirstPage = () => {
       
   {/* mobile responsive */}
 <section className=" text-[27px] font-semibold text-white lg:hidden" >
-    <div  className="h-auto bg-center bg-cover" style={{ backgroundImage: `url(${bg2})` }} >
+    <div  className="bg-center bg-cover " style={{ backgroundImage: `url(${bg2})` , }}>
+   
+
    
 
     
@@ -157,13 +159,22 @@ const FirstPage = () => {
               View demo <FaArrowRight />
             </button>
           </div>
-          <div className="relative flex items-center   md:px-0 px-[10%] justify-center w-full h-full " >
+          <div className="relative  flex items-center   md:px-0 px-[10%] justify-center w-full h-full " >
           <img
               src={mob}
               alt=""
             
-              className=" h-[300px] md:h-auto pt-[3rem]"
+              className=" h-[300px] z-10 md:h-auto pt-[3rem]"
             />
+              
+ <div className="absolute top-[3rem]" >
+ <img src={slide} alt="" className="w-full  h-[15.5rem] rounded-[1.5rem] " />
+ 
+
+ </div>
+
+
+
             
             <div className="absolute flex justify-between w-full top-20 md:top-36">
               <img
@@ -183,7 +194,7 @@ const FirstPage = () => {
               />
             </div>
 
-            <div className="absolute bottom-0 left-4 " >
+            <div className="absolute bottom-0 z-20 left-4 " >
               <img
                 src={d}
                 alt=""

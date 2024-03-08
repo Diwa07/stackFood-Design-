@@ -36,7 +36,7 @@ const SecondPage = () => {
       </ul>
       
       <button className="py-2 md:py-4 text-xs md:text-2xl flex justify-center items-center rounded-3xl border-[2px] border-[#FF922C] gap-1 md:gap-3 px-2 w-max md:px-7 bg-[#FF922C] shadow-[0px_20px_20px_0px_rgba(255,87,34,.3)]">
-              Buy Regular License 
+              Buy Regular License  
             </button>
 
     </div>
@@ -57,7 +57,7 @@ const SecondPage = () => {
         <li className='flex items-center gap-3 '  > <div>     <FaCheckCircle className='text-[#00C077]' /></div> Priority Support</li>
       </ul>
 
-      <button className="py-2 md:py-4 text-xs md:text-2xl flex justify-center items-center rounded-3xl border-[2px] border-[#03C677] gap-1 md:gap-3 px-2 w-max md:px-7 bg-[#03C677] shadow-[0px_20px_20px_0px_rgba(255,87,34,.3)]">
+      <button className="py-2 md:py-4 text-xs md:text-2xl flex  text-white  justify-center items-center rounded-3xl border-[2px] border-[#03C677] gap-1 md:gap-3 px-2 w-max md:px-7 bg-[#03C677] shadow-[0px_20px_20px_0px_rgba(255,87,34,.3)]">
               Buy Extended License 
             </button>
 

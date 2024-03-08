@@ -5,9 +5,9 @@ const Thirdppage = () => {
     <div className=' h-auto text-center bg-[#FEFDF9]  px-[5%] md:px-[10%] lg:px-[15%] '>
         <div>
             <h1 className='text-[27px] py-5' >
-            Pricing for Premium Addons
+            Pricing for Premium <span className='text-[#FE5825] font-semibold ' >Addons</span> 
             </h1>
-            <p className='text-[17px]' >
+            <p className='text-[17px] text-[#646b84]' >
             Choose our best-selling premium addons for smoother business operations and user experiences.
             </p>
         </div>
@@ -17,11 +17,11 @@ const Thirdppage = () => {
        <div className='' >
             <h2 className='py-3 font-bold' > StackFood Restaurant App </h2>
 
-            <div className='w-full grid items-center  grid-rows-2 gap-4 md:gap-0 md:grid-cols-2 h-5rem bg-[#FFFFFF] border-[gray] px-[5%] ' >
+            <div className='w-full grid items-center    gap-3  md:gap-5 md:grid-cols-2  bg-[#FFFFFF]  px-[5%] ' >
 
-                <div className='flex justify-between gap-3' > <h3>Regular License</h3>
+                <div className='flex justify-between gap-3 py-4' > <h3>Regular License</h3>
                 <p>$29</p>
-                <button className="py-2 md:py-4 text-xs md:text-2xl flex justify-center items-center rounded-md border-[2px] border-[#FF922C] gap-1 md:gap-3  px-2 w-max md:px-7 ">
+                <button className="flex border border-[#FF922C]  px-4  ">
               Buy now
             </button>
 
@@ -31,10 +31,9 @@ const Thirdppage = () => {
 
                 <div className='flex justify-between gap-3' > <h3>Extended Lisence</h3>
                 <p>$29</p>
-                <button className="py-2 md:py-4 text-xs md:text-2xl flex justify-center items-center rounded-md border-[2px] border-[#FF922C] gap-1 md:gap-3 px-2 w-max md:px-7 ">
-              Buy Now
+               <button className="flex border border-[#FF922C]  px-4  ">
+              Buy now
             </button>
-
 
                 </div> 
                  <div>
@@ -49,11 +48,12 @@ const Thirdppage = () => {
         <div className='' >
             <h2 className='py-3 font-bold' > StackFood Delivery App </h2>
 
-            <div className='w-full grid items-center  grid-rows-2 gap-4 md:gap-0 md:grid-cols-2 h-5rem bg-[#FFFFFF] border-[gray] px-[5%] ' >
+          
+            <div className='w-full grid items-center    gap-3  md:gap-5 md:grid-cols-2  bg-[#FFFFFF]  px-[5%] ' >
 
-                <div className='flex justify-between gap-3' > <h3>Regular License</h3>
+                <div className='flex justify-between gap-3 py-4' > <h3>Regular License</h3>
                 <p>$29</p>
-                <button className="py-2 md:py-4 text-xs md:text-2xl flex justify-center items-center rounded-md border-[2px] border-[#FF922C] gap-1 md:gap-3 px-2 w-max md:px-7 ">
+                <button className="flex border border-[#FF922C]  px-4  ">
               Buy now
             </button>
 
@@ -63,10 +63,9 @@ const Thirdppage = () => {
 
                 <div className='flex justify-between gap-3' > <h3>Extended Lisence</h3>
                 <p>$29</p>
-                <button className="py-2 md:py-4 text-xs md:text-2xl flex justify-center items-center rounded-md border-[2px] border-[#FF922C] gap-1 md:gap-3 px-2 w-max md:px-7 ">
-              Buy Now
+               <button className="flex border border-[#FF922C]  px-4  ">
+              Buy now
             </button>
-
 
                 </div> 
                  <div>
@@ -74,6 +73,7 @@ const Thirdppage = () => {
                 </div>
 
             </div>
+
 
 
         </div>
@@ -81,11 +81,11 @@ const Thirdppage = () => {
         <div className='' >
             <h2 className='py-3 font-bold' > StackFood React website</h2>
 
-            <div className='w-full grid items-center  grid-rows-2 gap-4 md:gap-0 md:grid-cols-2 h-5rem bg-[#FFFFFF] border-[gray] px-[5%] ' >
+            <div className='w-full grid items-center    gap-3  md:gap-5 md:grid-cols-2  bg-[#FFFFFF]  px-[5%] ' >
 
-                <div className='flex justify-between gap-3' > <h3>Regular License</h3>
+                <div className='flex justify-between gap-3 py-4' > <h3>Regular License</h3>
                 <p>$29</p>
-                <button className="py-2 md:py-4 text-xs md:text-2xl flex justify-center items-center rounded-md border-[2px] border-[#FF922C] gap-1 md:gap-3 px-2 w-max md:px-7 ">
+                <button className="flex border border-[#FF922C]  px-4  ">
               Buy now
             </button>
 
@@ -95,10 +95,9 @@ const Thirdppage = () => {
 
                 <div className='flex justify-between gap-3' > <h3>Extended Lisence</h3>
                 <p>$29</p>
-                <button className="py-2 md:py-4 text-xs md:text-2xl flex justify-center items-center rounded-md border-[2px] border-[#FF922C] gap-1 md:gap-3 px-2 w-max md:px-7 ">
-              Buy Now
+               <button className="flex border border-[#FF922C]  px-4  ">
+              Buy now
             </button>
-
 
                 </div> 
                  <div>
@@ -106,6 +105,7 @@ const Thirdppage = () => {
                 </div>
 
             </div>
+
 
 
         </div>
