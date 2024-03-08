@@ -1,10 +1,10 @@
 import React from "react";
-import mobile from "../../image/mobile.svg";
+import mobile from "../../image/Home-Page-Checkout_3.2.mp4";
 
 const ExploreDemo = () => {
   return (
     <div className=" h-auto  text-[white] flex justify-center  py-[7%]  px-[10%]  ">
-      <div className="  h-auto md:h-[27rem]  grid grid-cols-1 md:grid-cols-2  p-4  rounded-md bg-[#FF8332]">
+      <div className="  h-auto md:h-[27rem]  grid grid-cols-1 md:grid-cols-2  p-4  rounded-md bg-[#FF9B30]">
         <div className=" flex flex-col justify-center order-2  md:order-1  items-center px-[5%] h-auto  md:h-[25rem]  ">
           <h1 className="py-[7%] text-[28px] font-semibold " >Ensure the Perfect Checkout Journey for Your Customers</h1>
           <p className="py-[7%]" >
@@ -21,7 +21,7 @@ const ExploreDemo = () => {
         </div>
 
         <div className="flex  justify-center order-1 md:order-2 h-[25rem] ">
-          <img src={mobile} alt="" className="" />
+          <video src= {mobile} autoPlay/>
         </div>
       </div>
     </div>
