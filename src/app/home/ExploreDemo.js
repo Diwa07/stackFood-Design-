@@ -21,8 +21,8 @@ const ExploreDemo = () => {
         </div>
 
         <div className="flex  justify-center order-1 md:order-2 h-[25rem] ">
-          <video src= {mobile} autoPlay/>
-        </div>
+          <video src= {mobile} autoPlay loop controls={false}  />
+        </div> 
       </div>
     </div>
   );
