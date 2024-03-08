@@ -17,8 +17,9 @@ const   EightPage = () => {
         Want To Make <span className='text-[#FF5823]' > StackFood Your Own? </span>  Here’s How
 
         </h1>
-        <div className='h-full text-[#1a2e35] text-[21px] lg:flex' >
-        <div className='flex flex-col items-end w-full h-full gap-9 ' >
+        <div className='h-full   text-[#1a2e35] text-[21px] lg:flex' >
+
+        <div className='flex flex-col items-center w-full h-full gap-9 ' >
         <div className='flex flex-col items-center gap-5 lg:flex-row' >
           <p className='order-2 lg:order-1' > 
             Purchase StackFood from CodeCanyon
@@ -60,7 +61,7 @@ const   EightPage = () => {
 
         </div>
 
-<div className='items-center justify-center hidden  lg:flex' >
+<div className='items-center justify-center hidden lg:flex' >
 <div className='relative' >
   <img src={img} alt=''/>
  

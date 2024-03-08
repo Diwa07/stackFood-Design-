@@ -11,3 +11,6 @@
     background: url('./image/bg1.svg');
   }
 }
+.slide.odd {
+  margin-top: 2rem;
+}
