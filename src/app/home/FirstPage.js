@@ -168,7 +168,7 @@ const FirstPage = () => {
             />
               
  <div className="absolute top-[3rem]" >
- <img src={slide} alt="" className="w-full  h-[15.5rem] rounded-[1.5rem] " />
+ <img src={slide} alt="" className="w-full  h-[15.5rem] md:h-[31.2rem]  rounded-[1.5rem] " />
  
 
  </div>

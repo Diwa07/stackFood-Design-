@@ -66,9 +66,10 @@ const ThirdPage = () => {
 
 
 <div className='flex justify-center w-fit'>
-<img src={img2} alt='' className='lg:h-[80%] lg:w-[80%]' /> 
+<img src={img2} alt='' className='lg:h-[80%] max-lg:px-[7%] lg:w-[80%]' /> 
 </div>
 <div className='absolute top-0 flex justify-center w-full ' >
+<div className='absolute  max-lg:left-[23%]' >
 <svg xmlns="http://www.w3.org/2000/svg" width="600" height="66" viewBox="0 0 600 66" fill="none">
               <path style={{ 
           strokeWidth: 1,
@@ -76,6 +77,7 @@ const ThirdPage = () => {
           animation: 'dashSvg 30s linear infinite'
         }} d="M1 56V11C1 5.47715 5.47715 1 11 1H493C498.523 1 503 5.47715 503 11V65.5" stroke="#E55D28" stroke-dasharray="6 6"></path>
             </svg>
+</div>
 </div>
 
 <div className='absolute bottom-0 right-0 ' >
