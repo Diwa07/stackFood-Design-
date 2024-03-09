@@ -32,7 +32,7 @@ const ThirdPage = () => {
    
 <div className='absolute top-[9%] left-[27%]' >
 
-<svg xmlns="http://www.w3.org/2000/svg" width="100" height="150" viewBox="0 0 66 113" fill="none"><path d="M66 1H11C5.47715 1 1 5.47715 1 11V113" stroke="#E55D28" stroke-dasharray="6 6"></path></svg>
+<svg xmlns="http://www.w3.org/2000/svg" width="100" height="150" viewBox="0 0 66 113" fill="none"><path class="mbl_down_path" d="M66 1H11C5.47715 1 1 5.47715 1 11V113" stroke="#E55D28" stroke-dasharray="6 6"></path></svg>
 
 </div>
 
@@ -40,12 +40,12 @@ const ThirdPage = () => {
 
 <div className='absolute right-[2%] top-[10%] ' >
 
-<svg xmlns="http://www.w3.org/2000/svg" width="100" height="370" viewBox="0 0 38 298" fill="none"><path d="M0 297H27C32.5228 297 37 292.523 37 287V11C37 5.47716 32.5228 1 27 1H9.67045" stroke="#E55D28" stroke-dasharray="6 6"></path></svg>
+<svg xmlns="http://www.w3.org/2000/svg" width="100" height="370" viewBox="0 0 38 298" fill="none"><path class="mbl_down_path" d="M0 297H27C32.5228 297 37 292.523 37 287V11C37 5.47716 32.5228 1 27 1H9.67045" stroke="#E55D28" stroke-dasharray="6 6"></path></svg>
 </div>
 
  <div className='absolute bottom-[30%] left-[50%] ' >
  <svg xmlns="http://www.w3.org/2000/svg" width="150" height="55" viewBox="0 0 100 34" fill="none">
-    <path class="transition-path" d="M0 1H56C61.5228 1 66 5.47715 66 11V30.5" stroke="#E55D28" stroke-dasharray="6 6"></path>
+    <path className="side_path" d="M0 1H56C61.5228 1 66 5.47715 66 11V30.5" stroke="#E55D28" stroke-dasharray="6 6"></path>
   </svg>
  </div>
 

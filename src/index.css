@@ -116,3 +116,17 @@
 .svg-container:hover .transition-path {
   stroke: blue; /* New stroke color on hover */
 }
+
+
+/*************** Mobile svg animation ****************/
+.mbl_down_path {
+  stroke-width: 1;
+  stroke-dasharray: 6 6 !important;
+  animation: dashSvgDown 30s linear infinite;
+}
+
+@keyframes dashSvgDown {
+  100% {
+      stroke-dashoffset: -1000;
+  }
+}
