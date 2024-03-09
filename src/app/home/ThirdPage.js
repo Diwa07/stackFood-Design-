@@ -27,10 +27,10 @@ const ThirdPage = () => {
             <div className= 'relative flex justify-center md:hidden ' >
 
             <img src={img} alt='' className='h-[30rem]' />
-            <div className='absolute bottom-0 left-0 flex w-full h-full -z-10'> 
+            <div className='absolute bottom-0 flex h-full w-full  border border-[green] left-0 -z-10'> 
          
    
-<div className='absolute top-[9%] left-[32%]' >
+<div className='absolute top-[9%] left-[27%]' >
 
 <svg xmlns="http://www.w3.org/2000/svg" width="100" height="150" viewBox="0 0 66 113" fill="none"><path d="M66 1H11C5.47715 1 1 5.47715 1 11V113" stroke="#E55D28" stroke-dasharray="6 6"></path></svg>
 
@@ -38,7 +38,7 @@ const ThirdPage = () => {
 
 
 
-<div className='absolute right-[13%] top-[10%] ' >
+<div className='absolute right-[2%] top-[10%] ' >
 
 <svg xmlns="http://www.w3.org/2000/svg" width="100" height="370" viewBox="0 0 38 298" fill="none"><path d="M0 297H27C32.5228 297 37 292.523 37 287V11C37 5.47716 32.5228 1 27 1H9.67045" stroke="#E55D28" stroke-dasharray="6 6"></path></svg>
 </div>
@@ -66,10 +66,9 @@ const ThirdPage = () => {
 
 
 <div className='flex justify-center w-fit'>
-<img src={img2} alt='' className='lg:h-[80%] max-lg:px-[7%] lg:w-[80%]' /> 
+<img src={img2} alt='' className='lg:h-[80%] lg:w-[80%]' /> 
 </div>
 <div className='absolute top-0 flex justify-center w-full ' >
-<div className='absolute  max-lg:left-[23%]' >
 <svg xmlns="http://www.w3.org/2000/svg" width="600" height="66" viewBox="0 0 600 66" fill="none">
               <path style={{ 
           strokeWidth: 1,
@@ -77,7 +76,6 @@ const ThirdPage = () => {
           animation: 'dashSvg 30s linear infinite'
         }} d="M1 56V11C1 5.47715 5.47715 1 11 1H493C498.523 1 503 5.47715 503 11V65.5" stroke="#E55D28" stroke-dasharray="6 6"></path>
             </svg>
-</div>
 </div>
 
 <div className='absolute bottom-0 right-0 ' >
