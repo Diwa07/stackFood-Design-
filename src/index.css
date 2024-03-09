@@ -99,6 +99,20 @@
 
 .side_path {
   stroke-width: 1;
-  stroke-dasharray: 6 6 !important;
+  stroke-dasharray: 6 6 ;
   animation: dashSvgTwo 30s linear infinite;
+}
+
+.svg-container {
+  position: relative;
+  width: 67px;
+  height: 31px;
+}
+
+.transition-path {
+  transition: stroke 0.5s ease; /* Transition effect for stroke color */
+}
+
+.svg-container:hover .transition-path {
+  stroke: blue; /* New stroke color on hover */
 }

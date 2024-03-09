@@ -96,7 +96,7 @@ const SecondPage = () => {
                 </div>
               </div>
               <div className="md:absolute max-lg:h-[13rem] top-0 max-md:order-1 -z-10 ">
-                <div className="relative p-2 h-[14.5rem] w-[20.5rem] " style={{backgroundImage: `url(${monitor})`, backgroundSize:'contain', backgroundPosition:'center'}}>
+                <div className="relative p-2 h-[14.5rem] w-[20.5rem] " style={{backgroundImage: `url(${monitor})`, backgroundSize:'cover', backgroundPosition:'center'}}>
                   {/* <img src={monitor} alt="" className="w-full h-full" /> */}
 
                   <Swiper

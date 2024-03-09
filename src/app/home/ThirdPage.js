@@ -1,6 +1,7 @@
 import React from 'react'
 import img from '../../image/thirdscreen.webp'
 import img2 from '../../image/thirdscreenb.webp'
+import ellipse from "../../image/Ellipse-2218.png";
 const ThirdPage = () => {
   return (
     <div className='h-auto px-[2%]  mb-[5%] ' >
@@ -22,22 +23,44 @@ const ThirdPage = () => {
 
         </div>
         <div className='py-[4%]   px-[3%]  ' >
-            
-            <div className= 'md:hidden relative  border border-[black]' >
+             {/* mobile */}
+            <div className= 'relative flex justify-center md:hidden ' >
 
-            <img src={img} alt='' />
-<div className='absolute bottom-0 left-0 '> 
-<svg xmlns="http://www.w3.org/2000/svg" width="221" height="200" viewBox="0 0 221 200" fill="none"><path class="down_path" style={{ 
-          strokeWidth: 1,
-          strokeDasharray: '6 6',
-          animation: 'dashSvgUp 30s linear infinite'
-        }} d="M1 0V97C1 102.523 5.47715 107 11 107H220.5" stroke="#E55D28" stroke-dasharray="6 6"></path></svg>
+            <img src={img} alt='' className='h-[30rem]' />
+            <div className='absolute bottom-0 left-0 flex w-full h-full -z-10'> 
+         
+   
+<div className='absolute top-[9%] left-[32%]' >
+
+<svg xmlns="http://www.w3.org/2000/svg" width="100" height="150" viewBox="0 0 66 113" fill="none"><path d="M66 1H11C5.47715 1 1 5.47715 1 11V113" stroke="#E55D28" stroke-dasharray="6 6"></path></svg>
+
 </div>
+
+
+
+<div className='absolute right-[13%] top-[10%] ' >
+
+<svg xmlns="http://www.w3.org/2000/svg" width="100" height="370" viewBox="0 0 38 298" fill="none"><path d="M0 297H27C32.5228 297 37 292.523 37 287V11C37 5.47716 32.5228 1 27 1H9.67045" stroke="#E55D28" stroke-dasharray="6 6"></path></svg>
+</div>
+
+ <div className='absolute bottom-[30%] left-[50%] ' >
+ <svg xmlns="http://www.w3.org/2000/svg" width="150" height="55" viewBox="0 0 100 34" fill="none">
+    <path class="transition-path" d="M0 1H56C61.5228 1 66 5.47715 66 11V30.5" stroke="#E55D28" stroke-dasharray="6 6"></path>
+  </svg>
+ </div>
+
+
+
+
+</div>
+
+
+
 
 
             </div>
 
-
+ {/* other  */}
 
       <div  className='relative py-14 max-md:hidden' >
 
@@ -56,12 +79,13 @@ const ThirdPage = () => {
 </div>
 
 <div className='absolute bottom-0 right-0 ' >
-<svg xmlns="http://www.w3.org/2000/svg" width="450" height="300" viewBox="0 0 450 300" fill="none"><path className='side_path' d="M193 1H392C397.523 1 402 5.47715 402 11V168C402 173.523 397.523 178 392 178H0" stroke="#E55D28" stroke-dasharray="6 6"></path></svg>
-
+<svg xmlns="http://www.w3.org/2000/svg" width="550" height="355" viewBox="0 0 450 300" fill="none" >
+  <path className="side_path" d="M193 1H392C397.523 1 402 5.47715 402 11V168C402 173.523 397.523 178 392 178H0" stroke="#E55D28" strokeDasharray="6 6"></path>
+</svg>
 </div>
 <div className='absolute bottom-0 left-[15%]' >
            
-<svg xmlns="http://www.w3.org/2000/svg" width="221" height="200" viewBox="0 0 221 200" fill="none"><path class="down_path" style={{ 
+<svg xmlns="http://www.w3.org/2000/svg" width="400" height="300" viewBox="0 0 221 200" fill="none"><path class="down_path" style={{ 
           strokeWidth: 1,
           strokeDasharray: '6 6',
           animation: 'dashSvgUp 30s linear infinite'
