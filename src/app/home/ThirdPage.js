@@ -22,25 +22,44 @@ const ThirdPage = () => {
 
 
         </div>
-        <div className='py-[4%]   px-[3%]  ' >
+        <div className='py-[4%] text-[13px]   px-[1%]  ' >
              {/* mobile */}
             <div className= 'relative flex justify-center md:hidden ' >
+              <div className='absolute h-full w-full  top-0' >
+                <p className='absolute right-0' >
+                1. Customer places order <br/>  through app or web
 
-            <img src={img} alt='' className='h-[30rem]' />
-            <div className='absolute bottom-0 flex h-full w-full  border border-[green] left-0 -z-10'> 
+                </p>
+                <p className='absolute bottom-[25%] left-3 text-center ' >
+                2. Restaurant accepts the order <br/>  and starts to prepare food
+                </p>
+                <p className='absolute bottom-[42%]  right-[10%] text-center ' >
+               3. Restaurant  prepares <br/>  food   and handover <br/> to deliveryman
+                </p>
+                <p className='absolute top-[32%] right-[12%] text-center ' >
+                5. Customer receives <br/> order from deliveryman
+                </p>
+                <p className='absolute bottom-3 right-[12%] text-center ' >
+                4. Deliveryman receives food <br/> from the restaurant and out for delivery
+                </p>
+
+              </div>
+
+            <img src={img} alt='' className='h-[30rem] py-14 ' />
+            <div className='absolute bottom-0 flex h-full w-full left-0 -z-10'> 
          
    
 <div className='absolute   top-[9%] left-[27%]' >
 
-<svg xmlns="http://www.w3.org/2000/svg" width="100" height="150" viewBox="0 0 66 113" fill="none"><path class="mbl_down_path" d="M66 1H11C5.47715 1 1 5.47715 1 11V113" stroke="#E55D28" stroke-dasharray="6 6"></path></svg>
+<svg xmlns="http://www.w3.org/2000/svg" width="100" height="250" viewBox="0 0 66 113" fill="none"><path class="mbl_down_path" d="M66 1H11C5.47715 1 1 5.47715 1 11V113" stroke="#E55D28" stroke-dasharray="6 6"></path></svg>
 
 </div>
 
 
 
-<div className='absolute right-[2%] top-[10%] ' >
+<div className='absolute -right-3 top-[18%] ' >
 
-<svg xmlns="http://www.w3.org/2000/svg" width="100" height="370" viewBox="0 0 38 298" fill="none"><path class="mbl_down_path" d="M0 297H27C32.5228 297 37 292.523 37 287V11C37 5.47716 32.5228 1 27 1H9.67045" stroke="#E55D28" stroke-dasharray="6 6"></path></svg>
+<svg xmlns="http://www.w3.org/2000/svg" width="100" height="300" viewBox="0 0 38 298" fill="none"><path class="mbl_down_path" d="M0 297H27C32.5228 297 37 292.523 37 287V11C37 5.47716 32.5228 1 27 1H9.67045" stroke="#E55D28" stroke-dasharray="6 6"></path></svg>
 </div>
 
  <div className='absolute bottom-[30%] left-[50%] ' >
