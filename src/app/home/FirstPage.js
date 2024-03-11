@@ -159,9 +159,9 @@ const FirstPage = () => {
               View demo <FaArrowRight />
             </button>
           </div>
-          <div className="relative flex items-center md:px-0 px-[10%] justify-center w-full h-full">
-            <div className="relative">
-              <img src={mob} alt="" className="h-[300px] z-10 md:h-auto pt-[3rem]" />
+          <div className="relative    flex items-center md:px-0 px-[10%] justify-center w-full h-full">
+            <div className="relative  z-[30]     ">
+              <img src={mob} alt="" className="h-[300px]  md:h-auto pt-[3rem]" />
               <div className="absolute top-[3rem] left-0 right-0 ">
                 <Swiper
                   modules={[Navigation, Pagination, Autoplay, Scrollbar, A11y]}
@@ -173,7 +173,7 @@ const FirstPage = () => {
                   scrollbar={{ draggable: true }}
                 >
                   <SwiperSlide>
-                    <img src={slide} alt="" className="w-full h-[15.5rem] pl-[7px] pr-[5px] pt-[6px] pb-[2px] md:h-[31.2rem] rounded-[1.2rem]" />
+                    <img src={slide} alt="" className="w-full h-[15.5rem] pl-[7px]     pr-[5px] pt-[6px] pb-[2px] md:h-[31.2rem] rounded-[1.2rem]" />
                   </SwiperSlide>
                 </Swiper>
               </div>

@@ -30,7 +30,7 @@ const ThirdPage = () => {
             <div className='absolute bottom-0 flex h-full w-full  border border-[green] left-0 -z-10'> 
          
    
-<div className='absolute top-[9%] left-[27%]' >
+<div className='absolute   top-[9%] left-[27%]' >
 
 <svg xmlns="http://www.w3.org/2000/svg" width="100" height="150" viewBox="0 0 66 113" fill="none"><path class="mbl_down_path" d="M66 1H11C5.47715 1 1 5.47715 1 11V113" stroke="#E55D28" stroke-dasharray="6 6"></path></svg>
 
@@ -62,37 +62,62 @@ const ThirdPage = () => {
 
  {/* other  */}
 
-      <div  className='relative py-14 max-md:hidden' >
+      <div  className='relative  py-14 max-md:hidden' >
+        <div className=' top-4 absolute h-full w-full  ' >
+<p className=' text-center w-fit ' >
+1. Customer places order <br/> through app or web
+
+</p>
+<p className=' absolute right-5 top-1  text-center w-fit ' >
+2. Restaurant accepts the order <br/> and starts to prepare food
+
+</p>
+
+<p className=' absolute right-[7%] top-[45%] text-center   w-fit ' >
+3. Restaurant prepares food <br/> and handover to deliveryman
+
+</p>
+<p className=' absolute left-[16%] lg:left-[3%] bottom-[40%] text-center   w-fit ' >
+3. Restaurant prepares food <br/> and handover to deliveryman
+
+</p>
+<p className=' absolute left-[40%] bottom-4 text-center   w-fit ' >
+4. Deliveryman receives food from <br/>  the restaurant and out for delivery
+
+</p>
+
+        </div>
 
 
-<div className='flex justify-center w-fit'>
+<div className='flex justify-center md:pr-[13%]  w-fit'>
 <img src={img2} alt='' className='lg:h-[80%] lg:w-[80%]' /> 
 </div>
-<div className='absolute top-0 flex justify-center w-full ' >
-<svg xmlns="http://www.w3.org/2000/svg" width="600" height="66" viewBox="0 0 600 66" fill="none">
-              <path style={{ 
-          strokeWidth: 1,
-          strokeDasharray: '6 6',
-          animation: 'dashSvg 30s linear infinite'
-        }} d="M1 56V11C1 5.47715 5.47715 1 11 1H493C498.523 1 503 5.47715 503 11V65.5" stroke="#E55D28" stroke-dasharray="6 6"></path>
-            </svg>
-</div>
-
-<div className='absolute bottom-0 right-0 ' >
-<svg xmlns="http://www.w3.org/2000/svg" width="550" height="355" viewBox="0 0 450 300" fill="none" >
-  <path className="side_path" d="M193 1H392C397.523 1 402 5.47715 402 11V168C402 173.523 397.523 178 392 178H0" stroke="#E55D28" strokeDasharray="6 6"></path>
+<div className='absolute md:left-[5%] lg:left-[1%] md:top-2 lg:top-0   flex justify-center w-full ' >
+<svg xmlns="http://www.w3.org/2000/svg" className="md:w-[30rem] lg:w-[40rem]  " viewBox="0 0 600 66" fill="none">
+  <path style={{ 
+    strokeWidth: 1,
+    strokeDasharray: '6 6',
+    animation: 'dashSvg 30s linear infinite'
+  }} d="M1 56V11C1 5.47715 5.47715 1 11 1H493C498.523 1 503 5.47715 503 11V65.5" stroke="#E55D28" strokeDasharray="6 6"></path>
 </svg>
-</div>
-<div className='absolute bottom-0 left-[15%]' >
-           
-<svg xmlns="http://www.w3.org/2000/svg" width="400" height="300" viewBox="0 0 221 200" fill="none"><path class="down_path" style={{ 
-          strokeWidth: 1,
-          strokeDasharray: '6 6',
-          animation: 'dashSvgUp 30s linear infinite'
-        }} d="M1 0V97C1 102.523 5.47715 107 11 107H220.5" stroke="#E55D28" stroke-dasharray="6 6"></path></svg>
-
 
 </div>
+
+<div className='absolute bottom-0 -right-11 lg:right-4 '>
+  <svg xmlns="http://www.w3.org/2000/svg" className="w-[19rem]  h-[23rem]  lg:w-[32rem] lg:h-[30rem] " viewBox="0 0 420 200" fill="none">
+    <path className="side_path" d="M193 1H392C397.523 1 402 5.47715 402 11V168C402 173.523 397.523 178 392 178H0" stroke="#E55D28" strokeDasharray="6 6"></path>
+  </svg>
+</div>
+<div className='absolute bottom-0 left-[15%] lg:left-[23%] '>
+  <svg xmlns="http://www.w3.org/2000/svg" className="w-64 h-25 lg:h-[15rem]  " viewBox="0 0 221 200" fill="none">
+    <path className="down_path" d="M1 0V97C1 102.523 5.47715 107 11 107H220.5" stroke="#E55D28" strokeDasharray="6 6" style={{ 
+      strokeWidth: 1,
+      strokeDasharray: '6 6',
+      animation: 'dashSvgUp 30s linear infinite'
+    }}></path>
+  </svg>
+</div>
+
 
 
 

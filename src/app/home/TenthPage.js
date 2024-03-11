@@ -58,10 +58,10 @@ const TenthPage = () => {
               <div className="relative">
                 <img src={middle} alt="" className="w-[10rem] h-[10rem] " />
                 <img src={a} alt=" " className="absolute left-[-199px] top-[54px] h-[5rem] md:h-[10rem]  w-[5rem] md:w-[10rem]" />
-                <img src={b} alt=" " className="absolute left-[-109px] top-[176px] h-[5rem] md:h-[10rem] w-[5rem] md:w-[10rem]" />
-                <img src={c} alt=" " className="absolute left-[20px] top-[200px] h-[5rem] md:h-[10rem] w-[5rem] md:w-[10rem]" />
+                <img src={b} alt=" " className="absolute left-[-131px] top-[176px] h-[5rem] md:h-[10rem] w-[5rem] md:w-[10rem]" />
+                <img src={c} alt=" " className="absolute left-[20px] top-[226px] h-[5rem] md:h-[10rem] w-[5rem] md:w-[10rem]" />
                 <img src={d} alt=" " className="absolute left-[165px] top-[176px] h-[5rem] md:h-[10rem] w-[5rem] md:w-[10rem]" />
-                <img src={e} alt=" " className="absolute left-[200px] top-[54px] h-[5rem] md:h-[10rem] w-[5rem] md:w-[10rem]" />
+                <img src={e} alt=" " className="absolute left-[233px] top-[54px] h-[5rem] md:h-[10rem] w-[5rem] md:w-[10rem]" />
               </div>
           </div>
           {/* <div className="flex flex-col items-center justify-center w-full h-full">
