@@ -22,7 +22,7 @@ const ThirdPage = () => {
 
 
         </div>
-        <div className='py-[4%] text-[13px]   px-[1%]  ' >
+        <div className='py-[4%] text-[13px]  border border-[black]  px-[1%]  ' >
              {/* mobile */}
             <div className= 'relative flex justify-center md:hidden ' >
               <div className='absolute h-full w-full  top-0' >
