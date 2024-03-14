@@ -79,7 +79,7 @@ const TwelfthPage = () => {
        <h1 className='text-[23px]  font-semibold ' > Sobhan T. </h1>
        <h2 className='text-[17px]  font-semibold text-[#FE5926] ' >  Businessman, Ontario </h2>
        
-       <p className='px-[5%] text-[20px] ' >
+       <p className='md:px-[5%] text-[20px] ' >
        “With StackFood, I’ve transformed the online food order services into a new height in my country. Now, people can order food on the go and choose the “takeaway” option. So they can pick up the food themselves before returning to their home or workplaces. It’s amazing, and people are loving it!”
        </p>
        </div>
