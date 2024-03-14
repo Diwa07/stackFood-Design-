@@ -21,7 +21,7 @@ const Thirdppage = () => {
 
                 <div className='flex justify-between text-[20px] gap-3 py-4' > <h3>Regular License</h3>
                 <p className='text-[#FF5722] font-bold '>$29</p>
-                <button className="flex border rounded-md border-[#FF922C] text-[20px] py-2 text-[#FF6223] hover:text-[white]  hover:bg-[#FF6223] shadow-[0px_20px_20px_0px_rgba(255,222,89,.3)]   px-4  ">
+                <button className="flex border rounded-md border-[#FF922C] text-[20px] py-2 text-[#FF6223] hover:text-[white]  hover:bg-[#FF6223] shadow-[0px_20px_20px_0px_rgba(255,222,89,.3)]   px-3 md:px-4  ">
               Buy now
             </button>
 
@@ -31,7 +31,7 @@ const Thirdppage = () => {
 
                 <div className='flex justify-between text-[20px] gap-3'  > <h3>Extended Lisence</h3>
                 <p className='text-[#FF5722] font-bold '>$29</p>
-                <button className="flex border rounded-md border-[#FF922C] text-[20px] py-2 text-[#FF6223] hover:text-[white]  hover:bg-[#FF6223] shadow-[0px_20px_20px_0px_rgba(255,222,89,.3)]   px-4  ">
+                <button className="flex border rounded-md border-[#FF922C] text-[20px] py-2 text-[#FF6223] hover:text-[white]  hover:bg-[#FF6223] shadow-[0px_20px_20px_0px_rgba(255,222,89,.3)]   px-3 md:px-4 ">
               Buy now
             </button>
 
@@ -53,7 +53,7 @@ const Thirdppage = () => {
 
                 <div className='flex text-[20px] justify-between gap-3 py-4' > <h3>Regular License</h3>
                 <p className='text-[#FF5722] font-bold '>$29</p>
-                  <button className="flex border rounded-md border-[#FF922C] text-[20px] py-2 text-[#FF6223] hover:text-[white]  hover:bg-[#FF6223] shadow-[0px_20px_20px_0px_rgba(255,222,89,.3)]   px-4  ">
+                  <button className="flex border rounded-md border-[#FF922C] text-[20px] py-2 text-[#FF6223] hover:text-[white]  hover:bg-[#FF6223] shadow-[0px_20px_20px_0px_rgba(255,222,89,.3)]   px-3 md:px-4 ">
               Buy now
             </button>
 
@@ -63,7 +63,7 @@ const Thirdppage = () => {
 
                 <div className='flex text-[20px] justify-between gap-3' > <h3>Extended Lisence</h3>
                 <p className='text-[#FF5722] font-bold '>$29</p>
-                 <button className="flex border rounded-md border-[#FF922C] text-[20px] py-2 text-[#FF6223] hover:text-[white]  hover:bg-[#FF6223] shadow-[0px_20px_20px_0px_rgba(255,222,89,.3)]   px-4  ">
+                 <button className="flex border rounded-md border-[#FF922C] text-[20px] py-2 text-[#FF6223] hover:text-[white]  hover:bg-[#FF6223] shadow-[0px_20px_20px_0px_rgba(255,222,89,.3)]  px-3 md:px-4 ">
               Buy now
             </button>
 
@@ -85,7 +85,7 @@ const Thirdppage = () => {
 
                 <div className='flex text-[20px] justify-between gap-3 py-4' > <h3>Regular License</h3>
                 <p className='text-[#FF5722] font-bold '>$29</p>
-                  <button className="flex border rounded-md border-[#FF922C] text-[20px] py-2 text-[#FF6223] hover:text-[white]  hover:bg-[#FF6223] shadow-[0px_20px_20px_0px_rgba(255,222,89,.3)]   px-4  ">
+                  <button className="flex border rounded-md border-[#FF922C] text-[20px] py-2 text-[#FF6223] hover:text-[white]  hover:bg-[#FF6223] shadow-[0px_20px_20px_0px_rgba(255,222,89,.3)]  px-3 md:px-4  ">
               Buy now
             </button>
 
@@ -95,7 +95,7 @@ const Thirdppage = () => {
 
                 <div className='flex text-[20px] justify-between gap-3' > <h3>Extended Lisence</h3>
                 <p className='text-[#FF5722] font-bold '> $29</p>
-                 <button className="flex border rounded-md border-[#FF922C] text-[20px] py-2 text-[#FF6223] hover:text-[white]  hover:bg-[#FF6223] shadow-[0px_20px_20px_0px_rgba(255,222,89,.3)]   px-4  ">
+                 <button className="flex border rounded-md border-[#FF922C] text-[20px] py-2 text-[#FF6223] hover:text-[white]  hover:bg-[#FF6223] shadow-[0px_20px_20px_0px_rgba(255,222,89,.3)]  px-3 md:px-4 ">
               Buy now
             </button>
 

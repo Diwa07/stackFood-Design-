@@ -131,13 +131,12 @@ const SecondPage = () => {
 
                  
                 </div>
-                {/* <div className="absolute top-0 w-[367px] ">
-                  <img src={slidea} alt="" />
-                </div> */}
+            
               </div>
             </div>
-
+        
             <div className="flex flex-col items-center ">
+          
               <div className="flex flex-col ">
                 <img src={ellipse} alt="" className="h-[2rem] w-[2rem]" />
                 <img src={straignline} alt="" className="h-[2rem]  " />
