@@ -14,3 +14,8 @@
 .slide.odd {
   margin-top: 2rem;
 }
+.swiper-button-prev,
+.swiper-button-next {
+  width: 40px;
+  height: 40px;
+}

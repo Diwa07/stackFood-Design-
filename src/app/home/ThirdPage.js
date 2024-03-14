@@ -22,7 +22,7 @@ const ThirdPage = () => {
 
 
         </div>
-        <div className='py-[4%] text-[13px]  border border-[black]  px-[1%]  ' >
+        <div className='py-[4%] text-[13px]   px-[1%]  ' >
              {/* mobile */}
             <div className= 'relative flex justify-center md:hidden ' >
               <div className='absolute h-full w-full  top-0' >
@@ -82,26 +82,26 @@ const ThirdPage = () => {
  {/* other  */}
 
       <div  className='relative  py-14 max-md:hidden' >
-        <div className=' top-4 absolute h-full w-full  ' >
+        <div className=' top-4 text-[16px] absolute h-full w-full  ' >
 <p className=' text-center w-fit ' >
-1. Customer places order <br/> through app or web
+1. &nbsp; Customer places order <br/> through app or web
 
 </p>
 <p className=' absolute right-5 top-1  text-center w-fit ' >
-2. Restaurant accepts the order <br/> and starts to prepare food
+2. &nbsp; Restaurant accepts the order <br/> and starts to prepare food
 
 </p>
 
 <p className=' absolute right-[7%] top-[45%] text-center   w-fit ' >
-3. Restaurant prepares food <br/> and handover to deliveryman
+3. &nbsp; Restaurant prepares food <br/> and handover to deliveryman
 
 </p>
 <p className=' absolute left-[16%] lg:left-[3%] bottom-[40%] text-center   w-fit ' >
-3. Restaurant prepares food <br/> and handover to deliveryman
+5. &nbsp; Customer receives order <br/> from deliveryman
 
 </p>
 <p className=' absolute left-[40%] bottom-4 text-center   w-fit ' >
-4. Deliveryman receives food from <br/>  the restaurant and out for delivery
+4. &nbsp; Deliveryman receives food from <br/>  the restaurant and out for delivery
 
 </p>
 

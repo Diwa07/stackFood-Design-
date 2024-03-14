@@ -57,19 +57,20 @@ const SixthPage = () => {
           className=""
           modules={[Navigation, Pagination, Autoplay, Scrollbar, A11y]}
           spaceBetween={5}
-          slidesPerView={3}
+          slidesPerView={window.innerWidth >= 768 ? 5 : 3} 
           autoplay={{ delay: 3000 }}
           loop={true}
           navigation={true}
           // pagination={{ clickable: true }}
           scrollbar={{ draggable: true }}
+          
         >
     {slides.map((slide, index) => (
             <SwiperSlide
               key={index}
               className={`py-7 ${index % 2 !== 0 ? 'mt-8' : ''}`}
             >
-              <div className="flex flex-col rounded-2xl items-center bg-[#FFEDDB]">
+              <div className="flex flex-col py-11 px-2 rounded-2xl items-center bg-[#FFEDDB]">
                 <div>
                   <img src={slide.image} alt="" />
                 </div>

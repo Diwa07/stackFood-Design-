@@ -8,9 +8,9 @@ const SecondPage = () => {
 
 
   return (
-    <div className='h-auto text-center mb-[4rem] bg-[#FEFDF9]  px-[5%] md:px-[10%] lg:px-[15%] '>
+    <div className='h-auto text-center mb-[4rem] bg-[#FFFFFE]  px-[5%] md:px-[10%] lg:px-[15%] '>
         <div className='flex flex-col items-center justify-center py-9' >
-            <h1 className='py-9 text-[25px] font-semibold ' >
+            <h1 className='py-9 text-[30px] font-semibold text-[#1A2E35] ' >
             Which License Fits <span className='text-[#FF5823]' >Best For</span>  You?
             </h1>
             <p className='text-[#646b84]' >
@@ -22,7 +22,7 @@ const SecondPage = () => {
         <div className='grid w-full text-[#1a2e35] text-[15px] grid-cols-1 gap-7 h-fit md:grid-cols-2 ' >
         <div className='flex flex-col items-center p-3 border '  >
       <h2 className='text-[30px] font-semibold  bg-[#FFF6F4] p-3 text-[#FF5722] ' >Regular License Details</h2>
-      <ul className='flex flex-col bg-[#FEFEF6]   gap-10 py-9 ' >
+      <ul className='flex flex-col bg-[#FDFEFA]   gap-10 py-9 ' >
           <li className='flex items-center gap-3 '  > <div>     <FaCheckCircle className='text-[#00C077]' /> </div>  Lifetime License Validity</li>
           <li className='flex items-center gap-3 '  > <div>     <FaCheckCircle className='text-[#00C077]' /> </div>  Permitted for 1 Domain</li>
           <li className='flex items-center gap-3 '  > <div>     <FaCheckCircle className='text-[#00C077]' /> </div>  6 months of support</li>

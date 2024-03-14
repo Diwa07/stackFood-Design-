@@ -9,7 +9,7 @@ const EleventhPage = () => {
   return (
     <div className=' py-[4%]  h-auto px-[10%] ' >
     <div className='flex flex-col items-center text-center'>
-        <h1 className='py-5 text-[24px] font-bold ' >
+        <h1 className='py-5 text-[32px] font-bold ' >
         Supporting Your Success: We're Here to Help and <span className='text-[#FE5925]' > Support You! </span> 
         </h1>
         <p className='py-8 text-[#848889] ' >

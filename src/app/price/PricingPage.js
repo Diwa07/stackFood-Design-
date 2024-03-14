@@ -32,11 +32,11 @@ const Pricing = () => {
         <div className="h-screen/2 lg:h-[55vh]">
           <div className=" mt-[2rem]    flex flex-col items-center">
             <div className="flex flex-col px-4 text-center ">
-              <h1 className="text-3xl font-[24px] py-4">
+              <h1 className="text-3xl font-bold  py-4">
               StackFood Pricing
               </h1>
               <h1 className="py-4  text-[1rem] lg:text-xl mb-5">
-           <p className="px-9" >
+           <p className="px-9 md:px-[30%] " >
            Choose the best bundle for your multi restaurant eBusiness and get started immediately. Explore the Starter, Combo, and Super Combo packages included under the regular & extended license type
            </p>
               </h1>
@@ -87,7 +87,7 @@ const Pricing = () => {
                   >
                     <ul
                       className={`${
-                        id === 2 ? " text-[white]" : "text-[#646b84]"
+                        id === 2 ? " text-[white]" : "text-[#212C4F]"
                       } flex `}
                     >
                       <div className="">
@@ -183,7 +183,7 @@ const Pricing = () => {
                   >
                     <ul
                       className={`${
-                        id === 2 ? " text-[white]" : "text-[#646b84]"
+                        id === 2 ? " text-[white]" : "text-[#212C4F]"
                       } flex `}
                     >
                       <div className="">

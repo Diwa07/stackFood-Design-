@@ -23,8 +23,8 @@ const FirstPage = () => {
   <Nav/>
       <section className="hidden h-auto grid-cols-2 mb-[5%] lg:grid leftSideImage">
         <div className="flex flex-col items-center justify-center p-7 ">
-          <h1 className="flex flex-col text-3xl text-center focnt-bold ">
-            <p className="">
+          <h1 className="flex flex-col text-3xl text-center font-bold ">
+            <p className=" ">
               
               Multi Restaurant
               <span className="text-[#FE5824]"> Food Ordering & </span>
@@ -143,7 +143,7 @@ const FirstPage = () => {
 
  <div className="flex flex-col md:px-[10%] px-3  items-center text-center py-[7%]   " >
 <div className="px-[10%] " >
-<h1 className="py-5 text-[24px] " >
+<h1 className="py-5  text-[24px] " >
     Multi Restaurant Food Ordering & Delivery Solution with Source Code
     </h1> <p className="py-5  text-[17px] px-[5%]" >
     Build your very own multi restaurant online food ordering & delivery business with Stackfood’s complete source code & post-purchase services.

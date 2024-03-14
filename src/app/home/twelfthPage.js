@@ -12,8 +12,8 @@ const TwelfthPage = () => {
   return (
     <div className='h-auto px-[10%] flex justify-center py-5 flex-col  text-center  '>
         <div className='flex justify-center' >
-            <h1 className='text-[27px]'>
-            We Don’t Sell Products, We Make <span>  Success Stories </span> 
+            <h1 className=' font-bold text-[27px]'>
+            We Don’t Sell Products, We Make <span className='text-[#FE5926]' >  Success Stories </span> 
             </h1>
         </div>
 
@@ -41,11 +41,11 @@ const TwelfthPage = () => {
          <img src={balen} alt='' className='w-full h-full bg-cover rounded-full '  />
        </div>
        
-       <h1 className='text-[17px]  font-semibold ' >  BBBBBB </h1>
-       <h2 className='text-[15px]  font-semibold ' > Micheal J </h2>
+       <h1 className='text-[23px]  font-semibold ' >  Guzman F </h1>
+       <h2 className='text-[17px]  font-semibold  text-[#FE5926] ' >  Businessman, Senegal</h2>
        
-       <p className='px-[5%]' >
-       unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+       <p className='px-[5%] text-[20px] ' >
+       “With StackFood, I’ve transformed the online food order services into a new height in my country. Now, people can order food on the go and choose the “takeaway” option. So they can pick up the food themselves before returning to their home or workplaces. It’s amazing, and people are loving it!”
        </p>
        </div>
                  </SwiperSlide>
@@ -59,11 +59,11 @@ const TwelfthPage = () => {
          <img src={balen} alt='' className='w-full h-full bg-cover rounded-full '  />
        </div>
        
-       <h1 className='text-[17px]  font-semibold ' >  AAAAAAAA </h1>
-       <h2 className='text-[15px]  font-semibold ' > Micheal J </h2>
+       <h1 className='text-[23px]  font-semibold ' >  Michael  .j </h1>
+       <h2 className='text-[17px]  font-semibold text-[#FE5926] ' >  Businessman, Kualalampur </h2>
        
-       <p className='px-[5%]' >
-       unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+       <p className='px-[5%] text-[20px] ' >
+       “With StackFood, I’ve transformed the online food order services into a new height in my country. Now, people can order food on the go and choose the “takeaway” option. So they can pick up the food themselves before returning to their home or workplaces. It’s amazing, and people are loving it!”
        </p>
        </div>
                  </SwiperSlide>
@@ -76,11 +76,11 @@ const TwelfthPage = () => {
          <img src={balen} alt='' className='w-full h-full bg-cover rounded-full '  />
        </div>
        
-       <h1 className='text-[17px]  font-semibold ' > CCCCC </h1>
-       <h2 className='text-[15px]  font-semibold ' > Micheal J </h2>
+       <h1 className='text-[23px]  font-semibold ' > Sobhan T. </h1>
+       <h2 className='text-[17px]  font-semibold text-[#FE5926] ' >  Businessman, Ontario </h2>
        
-       <p className='px-[5%]' >
-       unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+       <p className='px-[5%] text-[20px] ' >
+       “With StackFood, I’ve transformed the online food order services into a new height in my country. Now, people can order food on the go and choose the “takeaway” option. So they can pick up the food themselves before returning to their home or workplaces. It’s amazing, and people are loving it!”
        </p>
        </div>
                  </SwiperSlide>
